@@ -4,9 +4,9 @@
 
 import { useState } from "react";
 import useSound from "use-sound";
-import backgroundMusic from "../assets/background.mp3";
-import SoundOn from "../assets/sound--on.svg";
-import SoundOff from "../assets/sound--off.svg";
+import backgroundMusic from "/assets/background.mp3";
+import SoundOn from "/assets/sound--on.svg";
+import SoundOff from "/assets/sound--off.svg";
 
 const MusicComponent = () => {
   const [isPlaying, setIsPlaying] = useState(false);

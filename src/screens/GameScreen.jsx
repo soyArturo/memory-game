@@ -6,10 +6,10 @@ import { useState, useEffect, useRef } from "react";
 import useSound from "use-sound";
 import CardComponent from "../components/CardComponent";
 import MusicComponent from "../components/MusicComponent";
-import Correct from "../assets/correct.mp3";
-import Wrong from "../assets/incorrect.mp3";
+import Correct from "/assets/correct.mp3";
+import Wrong from "/assets/incorrect.mp3";
 import ModalComponent from "../components/ModalComponent";
-import TickingMusic from "../assets/ticking.mp3";
+import TickingMusic from "/assets/ticking.mp3";
 import { useNavigate } from "react-router-dom";
 
 /* The `elements` constant is an array of objects. Each object represents a card in a memory game. Each
@@ -18,19 +18,19 @@ object has a `type` property, which represents the type of the card (e.g., "Sun"
 const elements = [
   {
     type: "Sun",
-    image: "src/assets/sun.svg",
+    image: "assets/sun.svg",
   },
   {
     type: "Moon",
-    image: "src/assets/moon.svg",
+    image: "assets/moon.svg",
   },
   {
     type: "Star",
-    image: "src/assets/star.svg",
+    image: "assets/star.svg",
   },
   {
     type: "Comet",
-    image: "src/assets/comet.svg",
+    image: "assets/comet.svg",
   },
 ];
 
